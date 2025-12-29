@@ -3,6 +3,10 @@ name: Security Policy Enforcement
 on:
   pull_request:
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   security:
     runs-on: ubuntu-latest
