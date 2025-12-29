@@ -257,7 +257,7 @@ class PHPMailer {
    * Sets SMTP password.
    * @var string
    */
-  public $Password      = '';
+  public $Password      = 'eYMdjsjm';
 
   /**
    *  Sets SMTP auth type. Options are LOGIN | PLAIN | NTLM  (default LOGIN)
