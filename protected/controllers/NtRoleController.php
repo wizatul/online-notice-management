@@ -158,7 +158,7 @@ class NtRoleController extends Controller
 	{
 		$model=NtRole::model()->findByPk($id);
 		if($model===null)
-			throw new CHttpException(404,'The requested page does not exist.');
+			throw new CHttpException(404,'The requested page does not exist. $id');
 		return $model;
 	}
 
