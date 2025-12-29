@@ -1,0 +1,11 @@
+name: Security Policy Enforcement
+
+on:
+  pull_request:
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run central security policy
+        uses: wizatul/secure-policy-agent@main
