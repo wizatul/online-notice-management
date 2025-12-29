@@ -3,3 +3,8 @@ database:
 
 api:
   auth: "c3VwZXJzZWNyZXR0b2tlbjEyMw=="
+
+database:
+  password: "SuperSecretPasswordsdsd123"
+
+  
