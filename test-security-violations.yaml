@@ -1,0 +1,10 @@
+database:
+  password: "SuperSecretPassword123"
+
+api:
+  auth: "c3VwZXJzZWNyZXR0b2tlbjEyMw=="
+
+database:
+  password: "SuperSecretPasswordsdsd123"
+
+  
